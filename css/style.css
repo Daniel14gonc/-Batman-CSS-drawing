@@ -1,0 +1,201 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #c30b0b;
+}
+
+.batman{
+    height: 154px;
+    width: 800px;
+    border: 0px solid;
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+    top: -600px;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-image:linear-gradient(to bottom right, transparent 0%, transparent 35%, #020003 35%, #020003 100%),
+    linear-gradient(to bottom left, transparent 0%, transparent 35%, #020003 35%, black 100%),
+    linear-gradient(to bottom left,#020003, #020003), linear-gradient(to bottom left,#020003, #020003),
+    linear-gradient(to bottom right, transparent 0%, transparent 35%, #020003 35%, #020003 100%),
+    linear-gradient(to bottom left, transparent 0%, transparent 35%, #020003 35%, #020003 100%),
+    linear-gradient(to bottom right, transparent 0%, transparent 35%, #020003 35%, #020003 100%),
+    linear-gradient(to bottom left, transparent 0%, transparent 35%, #020003 35%, #020003 100%),
+    linear-gradient(to bottom right, transparent 0%, transparent 60%, #020003 60%, #020003 100%),
+    linear-gradient(to bottom left, transparent 0%, transparent 60%, #0d0d17 60%, #0d0d17 100%),
+    linear-gradient(to bottom left,#020003, #020003), linear-gradient(to bottom left,#0d0d17, #0d0d17);
+    background-size: 8px 50px, 8px 40px, 8px 60px, 8px 60px, 8px 69px, 8px 69px, 15px 70px, 15px 70px, 
+    95px 70px, 88px 70px, 43px 56px, 85px 56px;
+    background-position: 300px 50px, 500px 50px, 300px 87px, 500px 87px, 295px 70px, 505px 70px, 293px 85px, 
+    500px 85px, 274px 85px, 447px 85px, 365px 100px, 365px 100px;  
+}
+
+.batman:before,
+.batman:after {
+  display: block;
+  content: '';
+  position: absolute;
+}
+
+.batman:before{
+    height: 500px;
+    width: 800px;
+    border: 0px solid;
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+    top: 640px;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-image:
+    /*tapas*/
+    linear-gradient(to bottom left,#020003, #020003),
+    linear-gradient(to bottom left,#0d0d17, #0d0d17),
+    /*Orificios de boca*/
+    linear-gradient(to bottom left,#b87a4e, #b87a4e), 
+    linear-gradient(to bottom left, #b87a4e 0%, #b87a4e 35%, transparent 35%, transparent 100%),
+    linear-gradient(to bottom left,#b87a4e, #b87a4e),
+    linear-gradient(to bottom right, #b87a4e 0%, #b87a4e 35%, transparent 35%, transparent 100%),
+    /*Orejas*/
+    radial-gradient(#020003 60%, transparent 60%), radial-gradient(#0d0d17 60%, transparent 60%),
+    /*Ojos*/
+    linear-gradient(55deg, #020003 0% 25%, white 25% 75%, #020003 75%), 
+    linear-gradient(to top right, #fff 0%, #fff 35%, #020003 35%, #020003 100%),
+    linear-gradient(-55deg, #0d0d17 0% 25%, white 25% 75%, #0d0d17 75%), 
+    linear-gradient(to top left, #fff 0%, #fff 35%, #0d0d17 35%, #0d0d17 100%),
+    /*Mejillas negro*/
+    linear-gradient(to bottom left,#020003, #020003), linear-gradient(to bottom left,#0d0d17, #0d0d17),
+    /*Mejillas negro*/
+    linear-gradient(to top right, transparent 0%, transparent 60%, #020003 60%, #020003 100%),
+    linear-gradient(to top left, transparent 0%, transparent 60%, #0d0d17 60%, #0d0d17 100%),
+    /*Cuello*/
+    linear-gradient(to bottom left,#020003, #020003), linear-gradient(to bottom left,#0d0d17, #0d0d17),
+    /*Triangulos barbilla*/
+    linear-gradient(to top right, #020003 0%, #020003 35%, transparent 35%, transparent 100%),
+    linear-gradient(to top left, #0d0d17 0%, #0d0d17 35%, transparent 35%, transparent 100%),
+    /*Boca*/
+    linear-gradient(to bottom left,#a38150, #a38150),
+    linear-gradient(70deg, transparent 0% 25%, #a38150 25%),
+    linear-gradient(-70deg, transparent 0% 25%, #a38150 25%),
+    /*Cara*/
+    linear-gradient(to top right, #fdc789, #fdc789),
+    /*Triangulo barbilla*/
+    linear-gradient(to bottom right, #020603 0%, #020603 35%, transparent 35%, transparent 100%),
+    linear-gradient(to bottom left, #020603 0%, #020603 35%, transparent 35%, transparent 100%),
+    /*Quijada izquierdo*/
+    linear-gradient(to top left, #020003 0%, #020003 35%, transparent 35%, transparent 100%),
+    /*Cuello*/
+    linear-gradient(to bottom right, #020003, #020003), linear-gradient(to bottom right, #0d0d17, #0d0d17),
+    /*Quijada derecho*/
+    linear-gradient(to top right, #0d0d17 0%, #0d0d17 35%, transparent 35%, transparent 100%),
+    /*Hombros*/
+    linear-gradient(to top left, #020003 0%, #020003 35%, transparent 35%, transparent 100%),
+    linear-gradient(to top right, #0d0d17 0%, #0d0d17 35%, transparent 35%, transparent 100%);
+    background-size: 20px 20px, 20px 20px,6px 8px, 8.6px 7px, 6px 8px, 8.6px 7px, 30px 60px, 30px 60px, 50px 14px, 45px 10px, 
+    50px 14px, 45px 10px, 115px 130px, 222px 130px, 144px 70px, 134px 69.7px, 25px 130px, 25px 130px,
+    50px 70px, 50px 70px,70px 8px,30px 10px,25px 10px, 174px 140px, 80px 140px, 88px 140px, 20px 86px, 123px 104px, 130px 104px, 
+    20px 86px, 220px 145px, 220px 145px, 510px 160px, 510px 200px;
+    background-position:310px 250px, 480px 250px, 319.2px 145.4px, 316.6px 153.2px, 489.9px 143px, 489.9px 151px, 283px 80px, 
+    495px 80px, 325px 95px, 330.3px 85.4px, 437px 95px, 437px 85.4px, 293px 0px, 293px 0px,264px 129.8px, 
+    408px 129.8px, 300px 130px, 490px 130px, 324px 192px, 441px 192px, 370px 205px, 377px 225px,407px 225px,
+    320px 120px, 410px 260px, 322.5px 260px, 281px 170px, 287.3px 254px, 398px 254px, 514px 170px, 
+    68px 213px, 527px 213px, 106px 357.5px, 106px 357.5px;
+}
+
+.batman:after{
+    height: 500px;
+    width: 800px;
+    border: 0px solid;
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+    top: 1355px;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-image:
+    /*Capa izquierda*/
+    linear-gradient(to bottom right, #0d0d17 0%, #0d0d17 30%, transparent 30%, transparent 100%),
+    linear-gradient(to bottom right, black 0%, black 30%, transparent 30%, transparent 100%),
+    /*Capa derecha*/
+    linear-gradient(to bottom left, black 0%, black 30%, transparent 30%, transparent 100%),
+    linear-gradient(to bottom left, #0d0d17 0%, #0d0d17 30%, transparent 30%, transparent 100%),
+    /*tapas*/
+    linear-gradient(to bottom right, #241F1F, #241F1F),
+    linear-gradient(to bottom right, #241F1F, #241F1F),
+    /*Simbolo - Cuernos*/
+    linear-gradient(to top left, #c30b0b 0%, #c30b0b 35%, transparent 35%, transparent 100%),
+    linear-gradient(to top right, #c30b0b 0%, #c30b0b 35%, transparent 35%, transparent 100%),
+    linear-gradient(to top left, #c30b0b 0%, #c30b0b 35%, transparent 35%, transparent 100%),
+    linear-gradient(to top right, #c30b0b 0%, #c30b0b 35%, transparent 35%, transparent 100%),
+    linear-gradient(to bottom right, #c30b0b, #c30b0b), 
+    linear-gradient(to bottom right, #c30b0b, #c30b0b),linear-gradient(to bottom right, #c30b0b, #c30b0b),
+    /*Alas-parte de arriba*/
+    linear-gradient(to top left, #c30b0b 0%, #c30b0b 35%, transparent 35%, transparent 100%),
+    linear-gradient(to top right, #c30b0b 0%, #c30b0b 35%, transparent 35%, transparent 100%),
+    linear-gradient(to top left, #c30b0b 0%, #c30b0b 35%, transparent 35%, transparent 100%),
+    linear-gradient(to top right, #c30b0b 0%, #c30b0b 35%, transparent 35%, transparent 100%),
+    /*Alas - lados*/
+    linear-gradient(to top left, #c30b0b 0%, #c30b0b 35%, transparent 35%, transparent 100%),
+    linear-gradient(to top right, #c30b0b 0%, #c30b0b 35%, transparent 35%, transparent 100%),
+    /*Ala - abajo izquierda*/
+    linear-gradient(to top left, #241F1F 0%, #241F1F 35%, transparent 35%, transparent 100%),
+    linear-gradient(to bottom right, #241F1F 0%, #241F1F 35%, transparent 35%, transparent 100%),
+    linear-gradient(to bottom right, #c30b0b, #c30b0b),
+    linear-gradient(to top left, #241F1F 0%, #241F1F 35%, transparent 35%, transparent 100%),
+    linear-gradient(to top right, #241F1F 0%, #241F1F 35%, transparent 35%, transparent 100%),
+    linear-gradient(to bottom right, #c30b0b, #c30b0b),
+    linear-gradient(to bottom left, #c30b0b 0%, #c30b0b 35%, transparent 35%, transparent 100%),
+    linear-gradient(to bottom right, #c30b0b 0%, #c30b0b 35%, transparent 35%, transparent 100%),
+    linear-gradient(to bottom right, #c30b0b, #c30b0b),
+    linear-gradient(to bottom left, #c30b0b 0%, #c30b0b 35%, transparent 35%, transparent 100%),
+    /*Ala - abajo derecha*/
+    linear-gradient(to top right, #241F1F 0%, #241F1F 35%, transparent 35%, transparent 100%),
+    linear-gradient(to bottom left, #241F1F 0%, #241F1F 35%, transparent 35%, transparent 100%),
+    linear-gradient(to bottom right, #c30b0b, #c30b0b),
+    linear-gradient(to top right, #241F1F 0%, #241F1F 35%, transparent 35%, transparent 100%),
+    linear-gradient(to top left, #241F1F 0%, #241F1F 35%, transparent 35%, transparent 100%),
+    linear-gradient(to bottom right, #c30b0b, #c30b0b),
+    linear-gradient(to bottom left, #c30b0b 0%, #c30b0b 35%, transparent 35%, transparent 100%),
+    linear-gradient(to bottom right, #c30b0b 0%, #c30b0b 35%, transparent 35%, transparent 100%),
+    linear-gradient(to bottom right, #c30b0b, #c30b0b),
+    linear-gradient(to bottom right, #c30b0b 0%, #c30b0b 35%, transparent 35%, transparent 100%),
+    /*Ala - abajo centro*/
+    linear-gradient(to bottom left, #c30b0b 0%, #c30b0b 35%, transparent 35%, transparent 100%),
+    linear-gradient(to bottom right, #c30b0b 0%, #c30b0b 35%, transparent 35%, transparent 100%),
+    linear-gradient(to bottom right, #c30b0b, #c30b0b),
+    /*Pecho*/
+    linear-gradient(to bottom right, #241F1F, #241F1F),
+    linear-gradient(to bottom left, #241F1F 0%, #241F1F 30%, transparent 30%, transparent 100%),
+    linear-gradient(to bottom right, #241F1F, #241F1F),
+    linear-gradient(to bottom right, #241F1F 0%, #241F1F 30%, transparent 30%, transparent 100%),
+    linear-gradient(to bottom right, #030303, #030303),
+    linear-gradient(to bottom left, #030303 0%, #030303 30%, transparent 30%, transparent 100%),
+    linear-gradient(to bottom right, #030303 0%, #030303 30%, transparent 30%, transparent 100%),
+    linear-gradient(to bottom right, black, black),
+    linear-gradient(to top left, black 0%, black 30%, transparent 30%, transparent 100%),
+    linear-gradient(to bottom left, black 0%, black 30%, transparent 30%, transparent 100%),
+    linear-gradient(to bottom right, black 0%, black 30%, transparent 30%, transparent 100%),
+    linear-gradient(to top right, black 0%, black 30%, transparent 30%, transparent 100%),
+    linear-gradient(to bottom right, black 0%, black 30%, transparent 30%, transparent 100%),
+    linear-gradient(to bottom left, black 0%, black 30%, transparent 30%, transparent 100%);
+
+    background-size: 510px 160px, 510px 200px, 510px 160px, 510px 200px, 30px 10px, 29px 10px,
+    5px 35px,5px 35px, 5px 35px,5px 35px, 30px 20px,85px 30px,85px 30px,20px 18px, 20px 18px,20px 18px,
+    20px 18px,42.5px 43px, 42.5px 43px,57px 20px, 40px 75px, 40px 40px, 30px 5px,15px 6px, 60px 30px, 
+    15px 17px, 13px 17px, 100px 28px, 13px 7px,57px 20px, 40px 75px, 40px 40px,30px 5px, 15px 6px, 29px 30px,15.5px 17px,
+    15.5px 17px, 100px 28px,13px 7px, 35px 90px, 35px 90px, 48.3px 10px, 500px 160px, 170px 170px, 300px 120px, 170px 170px,
+    530px 165px, 200px 160px, 200px 160px, 580px 180px, 10px 110px, 230px 170px, 580px 100px, 10px 110px, 230px 170px,
+    580px 100px;
+    background-position: 106px 0px, 106px 0px,200px 0, 200px 0, 320px 110.5px,471px 110.3px, 390px 20px,
+    394.9px 20px, 418px 20px, 422.9px 20px, 395px 48px,330px 54.8px,405px 54.8px,323.8px 37px,
+    343.6px 37px, 456.5px 37px, 476.3px 37px, 288px 42px, 489.5px 42px, 263px 104.5px, 
+    272.6px 84.5px, 278px 84.5px , 310.4px 105.6px, 340px 105.2px, 290px 84.5px, 
+    345.5px 111px, 360.2px 111px, 349.5px 83.5px, 373px 111px,500px 104.5px, 506.8px 84.5px,
+    500px 84.5px,480.4px 105.6px, 465.6px 105.2px, 471px 84.5px, 444.6px 111px, 460px 111px, 409.5px 83.5px,
+    434px 111px, 375px 115.8px, 409.8px 115.8px, 386px 106px, 150px 0, 82px 160px, 250px 141px, 549px 160px,
+    135px 0, 55px 164px, 545px 164px, 115px 0, 105px 70px, 17px 179.5px, 247px 221px, 695px 70px, 563px 179.5px,
+    -16px 221px;
+}
