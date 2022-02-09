@@ -1,17 +1,17 @@
 body{
     background-color: #c30b0b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
 }
 
 .batman{
     height: 154px;
     width: 800px;
+    margin: 200px;
     border: 0px solid;
-    position: absolute;
-    margin: auto;
-    right: 0;
-    left: 0;
-    top: -600px;
-    bottom: 0;
+    position: relative;
     background-repeat: no-repeat;
     background-image:linear-gradient(to bottom right, transparent 0%, transparent 35%, #020003 35%, #020003 100%),
     linear-gradient(to bottom left, transparent 0%, transparent 35%, #020003 35%, black 100%),
@@ -31,21 +31,16 @@ body{
 
 .batman:before,
 .batman:after {
-  display: block;
+  display: flex;
   content: '';
-  position: absolute;
+  position: relative;
 }
 
 .batman:before{
-    height: 500px;
+    height: 355px;
     width: 800px;
     border: 0px solid;
-    position: absolute;
-    margin: auto;
-    right: 0;
-    left: 0;
-    top: 640px;
-    bottom: 0;
+    margin-top: 154px;
     background-repeat: no-repeat;
     background-image:
     /*tapas*/
@@ -106,12 +101,6 @@ body{
     height: 500px;
     width: 800px;
     border: 0px solid;
-    position: absolute;
-    margin: auto;
-    right: 0;
-    left: 0;
-    top: 1355px;
-    bottom: 0;
     background-repeat: no-repeat;
     background-image:
     /*Capa izquierda*/
