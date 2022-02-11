@@ -1,7 +1,7 @@
 body{
-    /*background-color: #c30b0b;*/
+    background-color: #072628;
     
-    background: radial-gradient(black, #c30b0b, #dd1917, #3f0b0b, black);
+    /*/background: radial-gradient(black, #072628, #293c44, black);*/
     background-repeat: no-repeat;
     background-size: 100% 300%;
     display: flex;
@@ -12,7 +12,7 @@ body{
 .batman{
     height: 154px;
     width: 800px;
-    margin: 200px;
+    margin: 50px;
     border: 0px solid;
     position: relative;
     background-repeat: no-repeat;
@@ -101,8 +101,8 @@ body{
 }
 
 .batman:after{
-    height: 500px;
-    width: 800px;
+    height: 600px;
+    width: 1000px;
     border: 0px solid;
     background-repeat: no-repeat;
     background-image:
@@ -113,64 +113,116 @@ body{
     linear-gradient(to bottom left, black 0%, black 30%, transparent 30%, transparent 100%),
     linear-gradient(to bottom left, #0d0d17 0%, #0d0d17 30%, transparent 30%, transparent 100%),
     /*tapas*/
-    linear-gradient(to bottom right, #241F1F, #241F1F),
-    linear-gradient(to bottom right, #241F1F, #241F1F),
+    linear-gradient(to bottom right, #4b4545, #4b4545),
+    linear-gradient(to bottom right, #4b4545, #4b4545),
     /*Simbolo - Cuernos*/
-    linear-gradient(to top left, #c30b0b 0%, #c30b0b 35%, transparent 35%, transparent 100%),
-    linear-gradient(to top right, #c30b0b 0%, #c30b0b 35%, transparent 35%, transparent 100%),
-    linear-gradient(to top left, #c30b0b 0%, #c30b0b 35%, transparent 35%, transparent 100%),
-    linear-gradient(to top right, #c30b0b 0%, #c30b0b 35%, transparent 35%, transparent 100%),
-    linear-gradient(to bottom right, #c30b0b, #c30b0b), 
-    linear-gradient(to bottom right, #c30b0b, #c30b0b),linear-gradient(to bottom right, #c30b0b, #c30b0b),
+    linear-gradient(to top left, black 0%, black 35%, transparent 35%, transparent 100%),
+    linear-gradient(to top right, black 0%, black 35%, transparent 35%, transparent 100%),
+    linear-gradient(to top left, black 0%, black 35%, transparent 35%, transparent 100%),
+    linear-gradient(to top right, black 0%, black 35%, transparent 35%, transparent 100%),
+    linear-gradient(to bottom right, black, black), 
+    linear-gradient(to bottom right, black, black),linear-gradient(to bottom right, black, black),
     /*Alas-parte de arriba*/
-    linear-gradient(to top left, #c30b0b 0%, #c30b0b 35%, transparent 35%, transparent 100%),
-    linear-gradient(to top right, #c30b0b 0%, #c30b0b 35%, transparent 35%, transparent 100%),
-    linear-gradient(to top left, #c30b0b 0%, #c30b0b 35%, transparent 35%, transparent 100%),
-    linear-gradient(to top right, #c30b0b 0%, #c30b0b 35%, transparent 35%, transparent 100%),
+    linear-gradient(to top left, black 0%, black 35%, transparent 35%, transparent 100%),
+    linear-gradient(to top right, black 0%, black 35%, transparent 35%, transparent 100%),
+    linear-gradient(to top left, black 0%, black 35%, transparent 35%, transparent 100%),
+    linear-gradient(to top right, black 0%, black 35%, transparent 35%, transparent 100%),
     /*Alas - lados*/
-    linear-gradient(to top left, #c30b0b 0%, #c30b0b 35%, transparent 35%, transparent 100%),
-    linear-gradient(to top right, #c30b0b 0%, #c30b0b 35%, transparent 35%, transparent 100%),
+    linear-gradient(to top left, black 0%, black 35%, transparent 35%, transparent 100%),
+    linear-gradient(to top right, black 0%, black 35%, transparent 35%, transparent 100%),
     /*Ala - abajo izquierda*/
-    linear-gradient(to top left, #241F1F 0%, #241F1F 35%, transparent 35%, transparent 100%),
-    linear-gradient(to bottom right, #241F1F 0%, #241F1F 35%, transparent 35%, transparent 100%),
-    linear-gradient(to bottom right, #c30b0b, #c30b0b),
-    linear-gradient(to top left, #241F1F 0%, #241F1F 35%, transparent 35%, transparent 100%),
-    linear-gradient(to top right, #241F1F 0%, #241F1F 35%, transparent 35%, transparent 100%),
-    linear-gradient(to bottom right, #c30b0b, #c30b0b),
-    linear-gradient(to bottom left, #c30b0b 0%, #c30b0b 35%, transparent 35%, transparent 100%),
-    linear-gradient(to bottom right, #c30b0b 0%, #c30b0b 35%, transparent 35%, transparent 100%),
-    linear-gradient(to bottom right, #c30b0b, #c30b0b),
-    linear-gradient(to bottom left, #c30b0b 0%, #c30b0b 35%, transparent 35%, transparent 100%),
-    /*Ala - abajo derecha*/
-    linear-gradient(to top right, #241F1F 0%, #241F1F 35%, transparent 35%, transparent 100%),
-    linear-gradient(to bottom left, #241F1F 0%, #241F1F 35%, transparent 35%, transparent 100%),
-    linear-gradient(to bottom right, #c30b0b, #c30b0b),
-    linear-gradient(to top right, #241F1F 0%, #241F1F 35%, transparent 35%, transparent 100%),
-    linear-gradient(to top left, #241F1F 0%, #241F1F 35%, transparent 35%, transparent 100%),
-    linear-gradient(to bottom right, #c30b0b, #c30b0b),
-    linear-gradient(to bottom left, #c30b0b 0%, #c30b0b 35%, transparent 35%, transparent 100%),
-    linear-gradient(to bottom right, #c30b0b 0%, #c30b0b 35%, transparent 35%, transparent 100%),
-    linear-gradient(to bottom right, #c30b0b, #c30b0b),
-    linear-gradient(to bottom right, #c30b0b 0%, #c30b0b 35%, transparent 35%, transparent 100%),
-    /*Ala - abajo centro*/
-    linear-gradient(to bottom left, #c30b0b 0%, #c30b0b 35%, transparent 35%, transparent 100%),
-    linear-gradient(to bottom right, #c30b0b 0%, #c30b0b 35%, transparent 35%, transparent 100%),
-    linear-gradient(to bottom right, #c30b0b, #c30b0b),
-    /*Pecho*/
-    linear-gradient(to bottom right, #241F1F, #241F1F),
-    linear-gradient(to bottom left, #241F1F 0%, #241F1F 30%, transparent 30%, transparent 100%),
-    linear-gradient(to bottom right, #241F1F, #241F1F),
-    linear-gradient(to bottom right, #241F1F 0%, #241F1F 30%, transparent 30%, transparent 100%),
-    linear-gradient(to bottom right, #030303, #030303),
-    linear-gradient(to bottom left, #030303 0%, #030303 30%, transparent 30%, transparent 100%),
-    linear-gradient(to bottom right, #030303 0%, #030303 30%, transparent 30%, transparent 100%),
+    linear-gradient(to top left, #4b4545 0%, #4b4545 35%, transparent 35%, transparent 100%),
+    linear-gradient(to bottom right, #4b4545 0%, #4b4545 35%, transparent 35%, transparent 100%),
     linear-gradient(to bottom right, black, black),
-    linear-gradient(to top left, black 0%, black 30%, transparent 30%, transparent 100%),
-    linear-gradient(to bottom left, black 0%, black 30%, transparent 30%, transparent 100%),
-    linear-gradient(to bottom right, black 0%, black 30%, transparent 30%, transparent 100%),
+    linear-gradient(to top left, #4b4545 0%, #4b4545 35%, transparent 35%, transparent 100%),
+    linear-gradient(to top right, #4b4545 0%, #4b4545 35%, transparent 35%, transparent 100%),
+    linear-gradient(to bottom right, black, black),
+    linear-gradient(to bottom left, black 0%, black 35%, transparent 35%, transparent 100%),
+    linear-gradient(to bottom right, black 0%, black 35%, transparent 35%, transparent 100%),
+    linear-gradient(to bottom right, black, black),
+    linear-gradient(to bottom left, black 0%, black 35%, transparent 35%, transparent 100%),
+    /*Ala - abajo derecha*/
+    linear-gradient(to top right, #4b4545 0%, #4b4545 35%, transparent 35%, transparent 100%),
+    linear-gradient(to bottom left, #4b4545 0%, #4b4545 35%, transparent 35%, transparent 100%),
+    linear-gradient(to bottom right, black, black),
+    linear-gradient(to top right, #4b4545 0%, #4b4545 35%, transparent 35%, transparent 100%),
+    linear-gradient(to top left, #4b4545 0%, #4b4545 35%, transparent 35%, transparent 100%),
+    linear-gradient(to bottom right, black, black),
+    linear-gradient(to bottom left, black 0%, black 35%, transparent 35%, transparent 100%),
+    linear-gradient(to bottom right, black 0%, black 35%, transparent 35%, transparent 100%),
+    linear-gradient(to bottom right, black, black),
+    linear-gradient(to bottom right, black 0%, black 35%, transparent 35%, transparent 100%),
+    /*Ala - abajo centro*/
+    linear-gradient(to bottom left, black 0%, black 35%, transparent 35%, transparent 100%),
+    linear-gradient(to bottom right, black 0%, black 35%, transparent 35%, transparent 100%),
+    linear-gradient(to bottom right, black, black),
+    /*Pecho*/
+    linear-gradient(to bottom right, #4b4545, #4b4545),
+    linear-gradient(to bottom left, #4b4545 0%, #4b4545 30%, transparent 30%, transparent 100%),
+    linear-gradient(to bottom right, #4b4545, #4b4545),
+    linear-gradient(to bottom right, #4b4545 0%, #4b4545 30%, transparent 30%, transparent 100%),
+    linear-gradient(to bottom right, #241e22, #241e22),
+    linear-gradient(to bottom left, #241e22 0%, #241e22 30%, transparent 30%, transparent 100%),
+    linear-gradient(to bottom right, #241e22 0%, #241e22 30%, transparent 30%, transparent 100%),
+    linear-gradient(to bottom right, #131114, #131114),
+    linear-gradient(to top left, #131114 0%, #131114 30%, transparent 30%, transparent 100%),
+    linear-gradient(to bottom left, #131114 0%, #131114 30%, transparent 30%, transparent 100%),
+    linear-gradient(to bottom right, #131114 0%, #131114 30%, transparent 30%, transparent 100%),
+    linear-gradient(to top right, #131114 0%, #131114 30%, transparent 30%, transparent 100%),
+    linear-gradient(to bottom right, #131114 0%, #131114 30%, transparent 30%, transparent 100%),
+    linear-gradient(to bottom left, #131114 0%, #131114 30%, transparent 30%, transparent 100%),
+    
+    /*capa relleno izquierda*/
+    linear-gradient(to top left, #0d0d17 0%, #0d0d17 30%, transparent 30%, transparent 100%),
     linear-gradient(to top right, black 0%, black 30%, transparent 30%, transparent 100%),
+    linear-gradient(to bottom right, #0d0d17 0%, #0d0d17 30%, transparent 30%, transparent 100%),
+    linear-gradient(to bottom right, #0d0d17, #0d0d17),
     linear-gradient(to bottom right, black 0%, black 30%, transparent 30%, transparent 100%),
-    linear-gradient(to bottom left, black 0%, black 30%, transparent 30%, transparent 100%);
+    linear-gradient(to bottom right, black, black),
+    /*capa relleno izquierdo*/
+    linear-gradient(to bottom left, black 0%, black 30%, transparent 30%, transparent 100%),
+    linear-gradient(to bottom right, black, black),
+    linear-gradient(to bottom left, #0d0d17 0%, #0d0d17 30%, transparent 30%, transparent 100%),
+    linear-gradient(to bottom right, #0d0d17, #0d0d17),
+    
+    /*Brazo izquierdo*/
+    linear-gradient(to bottom left, #242021 0%, #242021 30%, transparent 30%, transparent 100%),
+    linear-gradient(to bottom right, #54504d 0%, #54504d 30%, transparent 30%, transparent 100%),
+    linear-gradient(to left, #54504d , #54504d),
+    linear-gradient(to bottom left, #242021, #242021),
+    linear-gradient(to bottom right, #242021 0%, #242021 30%, transparent 30%, transparent 100%),
+    linear-gradient(-255deg, #54504d 0% 60%, transparent 60%),
+    linear-gradient(-255deg, #141215 0% 60%, transparent 60%),
+
+    /*brazo derecho*/
+    linear-gradient(to bottom right, #242021 0%, #242021 30%, transparent 30%, transparent 100%),
+    linear-gradient(to bottom left, #54504d 0%, #54504d 30%, transparent 30%, transparent 100%),
+    linear-gradient(to left, #54504d , #54504d),
+    linear-gradient(to bottom right, #242021, #242021),
+    linear-gradient(to bottom left, #242021 0%, #242021 30%, transparent 30%, transparent 100%),
+    linear-gradient(255deg, #54504d 0% 60%, transparent 60%),
+    linear-gradient(255deg, #141215 0% 60%, transparent 60%),
+    
+    /*abdomen*/
+    linear-gradient(to bottom right, #1a1414, #1a1414),
+    linear-gradient(to bottom right, #4b4545, #4b4545),
+    linear-gradient(to bottom right, #4b4545, #4b4545),
+    linear-gradient(to top left, #242021 0%, #242021 30%, transparent 30%, transparent 100%),
+    linear-gradient(to top right, #242021 0%, #242021 30%, transparent 30%, transparent 100%),
+    linear-gradient(to bottom left, #242021 0%, #242021 30%, transparent 30%, transparent 100%),
+    linear-gradient(to bottom right, #242021 0%, #242021 30%, transparent 30%, transparent 100%),
+    linear-gradient(to bottom left, #4b4545 0%, #4b4545 30%, transparent 30%, transparent 100%),
+    linear-gradient(to bottom right, #4b4545 0%, #4b4545 30%, transparent 30%, transparent 100%),
+    linear-gradient(to bottom right, #4b4545, #4b4545),
+    linear-gradient(25deg, transparent 0% 35%, black 35% 55%, transparent 55%),
+    linear-gradient(25deg, transparent 0% 35%, black 33% 57%, transparent 57%),
+    linear-gradient(-25deg, transparent 0% 35%, black 35% 55%, transparent 55%),
+    linear-gradient(-25deg, transparent 0% 35%, black 33% 57%, transparent 57%),
+    linear-gradient(to top right, #072628, 0%, #072628, 30%, transparent 30%, transparent 100%),
+    linear-gradient(to top left, #072628, 0%, #072628, 30%, transparent 30%, transparent 100%),
+    linear-gradient(to bottom right, #413d3c, #413d3c),
+    linear-gradient(to bottom left, #413d3c, #413d3c);
+
 
     background-size: 510px 160px, 510px 200px, 510px 160px, 510px 200px, 30px 10px, 29px 10px,
     5px 35px,5px 35px, 5px 35px,5px 35px, 30px 20px,85px 30px,85px 30px,20px 18px, 20px 18px,20px 18px,
@@ -178,7 +230,18 @@ body{
     15px 17px, 13px 17px, 100px 28px, 13px 7px,57px 20px, 40px 75px, 40px 40px,30px 5px, 15px 6px, 29px 30px,15.5px 17px,
     15.5px 17px, 100px 28px,13px 7px, 35px 90px, 35px 90px, 48.3px 10px, 500px 160px, 170px 170px, 300px 120px, 170px 170px,
     530px 165px, 200px 160px, 200px 160px, 580px 180px, 10px 110px, 230px 170px, 580px 100px, 10px 110px, 230px 170px,
-    580px 100px;
+    580px 100px, 190px 80px, 190px 80px, 180px 50px, 120px 53px, 180px 50px, 108px 55px,
+    185px 50px, 120px 51px, 180px 50px, 108px 55px, 
+    
+    20px 140px, 140px 130px, 85px 70px, 140px 115px, 230px 150px, 140px 200px, 200px 330px,
+
+    20px 140px, 140px 130px, 85px 70px, 140px 115px, 230px 150px, 140px 200px, 200px 330px,
+
+
+    2px 225px, 155px 170px, 155px 170px, 130px 90px, 130px 90px, 130px 50px, 130px 50px, 100px 90px,
+    100px 90px, 180px 55px, 70px 80px, 100px 80px, 70px 80px, 100px 80px, 210px 210px, 210px 210px, 200px 330px, 
+    200px 330px;
+
     background-position: 106px 0px, 106px 0px,200px 0, 200px 0, 319.5px 110.3px,471px 110.3px, 390px 20px,
     394.9px 20px, 418px 20px, 422.9px 20px, 395px 48px,330px 54.8px,405px 54.8px,323.8px 37px,
     343.6px 37px, 456.5px 37px, 476.3px 37px, 288px 42px, 489.5px 42px, 263px 104.5px, 
@@ -187,5 +250,14 @@ body{
     500px 84.5px,480.4px 105.6px, 465.6px 105.2px, 471px 84.5px, 444.9px 111px, 460px 111px, 409.5px 83.5px,
     434px 111px, 375.5px 115.8px, 409.8px 115.8px, 386px 106px, 150px 0, 82px 160px, 250px 141px, 549px 160px,
     135px 0, 55px 164px, 545px 164px, 115px 0, 105px 70px, 17px 179.5px, 247px 221px, 695px 70px, 563px 179.5px,
-    -16px 221px;
+    -16px 221px, -78px -35px, 709.5px -32px, 0px 96px, 0px 45px,
+    0px 119px, 0px 65px, 635px 96px, 700px 46px, 636px 119px,709px 65px, 
+    
+    68px 125px, 0px 164px, 0px 95px, 0px 80px, 0px 190px, 0 230px, 0px 100px,
+
+    725px 125px, 674.5px 165px, 730px 95px, 675px 80px, 585px 190px, 675px 230px, 615px 100px,
+    
+    410px 280px, 255px 250px, 400px 250px, 280px 385px, 412px 385px, 280px 475px, 410px 475px,
+    215px 420px, 495px 420px, 315px 419px, 190px 390px, 156px 310px, 548px 390px, 555px 310px,
+    50px 271px, 540px 271px, 60px 150px, 550px 150px;
 }
