@@ -220,8 +220,8 @@ body{
     linear-gradient(-25deg, transparent 0% 35%, black 33% 57%, transparent 57%),
     linear-gradient(to top right, #072628, 0%, #072628, 30%, transparent 30%, transparent 100%),
     linear-gradient(to top left, #072628, 0%, #072628, 30%, transparent 30%, transparent 100%),
-    linear-gradient(to bottom right, #413d3c, #413d3c),
-    linear-gradient(to bottom left, #413d3c, #413d3c);
+    linear-gradient(to bottom right, #1b191c, #1b191c),
+    linear-gradient(to bottom left, #413d3c, #1b191c);
 
 
     background-size: 510px 160px, 510px 200px, 510px 160px, 510px 200px, 30px 10px, 29px 10px,
